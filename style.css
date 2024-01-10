@@ -1,0 +1,56 @@
+ul {
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  background-color: #ffe4c4;
+  border-right: 1px solid #000000;
+}
+
+.menu {
+  padding: 20px;
+}
+
+.menu h3 {
+  margin-top: 25px;
+  cursor: pointer; /* Adicionado para garantir que o cursor seja um indicador de clique */
+}
+
+.menu li {
+  margin: 15px;
+}
+
+footer p {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
+h3::after,
+.menu li {
+  cursor: pointer;
+}
+
+.js-accordion li {
+  display: none;
+}
+
+.js-accordion h3::after {
+  content: "↴";
+  margin-left: 10px;
+}
+
+.js-accordion h3.active::after {
+  content: "⬏";
+}
+
+.js-accordion section.active li {
+  display: block;
+}

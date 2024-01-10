@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto auto auto;
+    min-height: 100vh;
+}
+
+.menu, .header, .content, .footer {
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.menu {
+    grid-row: span 2;
+    grid-column: span 1; /* Ocupa toda a coluna */
+}
+
+.header {
+    grid-row: span 1; /* Ocupa uma linha */
+    grid-column: span 2; /* Ocupa duas colunas */
+}
+
+.content {
+    grid-row: span 1;
+    grid-column: span 1;
+}
+
+.footer {
+    grid-row: span 1;
+    grid-column: span 2;
+}
+
+@media (max-width: 800px) {
+    
+}
