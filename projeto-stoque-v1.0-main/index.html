@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Estilo Grid-->
+    <link rel="stylesheet" href="grid.css">
+    <!-- Estilo Global-->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fonte Roboto-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Fonte Merriweather-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <title>Stoque</title>
+</head>
+
+<body>
+
+    <!-- Cabeçalho -->
+    <div class="container">
+        <header class="header">
+            <nav>
+                <ul>
+                    <li><a id="title" href="index.html">Stoque</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Contato</a></li>
+                    <li><a href="#">Usuário</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Menu -->
+        <!-- <nav class="menu">
+            <main class="menu js-accordion">
+                <!-- Cadastro e Gerenciamento de Produtos -->
+                <section class="active">
+                    <h3>1. Cadastro e gerenciamento de produtos</h3>
+                    <ul>
+                        <li
+                        id="cadastrar_produto"
+                        class="funcao_1">
+                        <button onclick="alterarDisplay('1')">
+                            Cadastrar produto
+                        </button>
+                        </li>
+
+                        <li
+                        id="alterar_preco"
+                        class="funcao_2">
+                        <button onclick="alterarDisplay('2')">
+                            Alterar preço do produto por nome
+                        </button>
+                        </li>
+
+                        <li
+                        id="adicionar_quantidade" class="funcao_3">
+                        <button onclick="alterarDisplay('2')">
+                            Adicionar quantidade pelo nome do produto (entrada)
+                        </button>
+                        </li>
+
+                        <li><a href="remover_saldo.html">Remover quantidade pelo nome do produto (saída)</a></li>
+
+                        <li><a href="registrar_info.html">Registrar informações adicionais sobre o produto</a></li>
+                    </ul>
+                </section>
+
+                <!-- Listagem e Busca de Produtos -->
+                <section class="active">
+                    <h3>2. Listagem e busca de produtos</h3>
+                    <ul>
+                        <li><a href="listar.html">Listar produtos</a></li>
+                        <li><a href="buscar.html">Buscar produto por nome</a></li>
+                    </ul>
+                </section>
+
+                <!-- Atualização e Ordenação de Produtos -->
+                <section class="active">
+                    <h3>3. Atualização e ordenação de produtos</h3>
+                    <ul>
+                        <li><a href="alterar_preco.html">Alterar preço do produto por nome</a></li>
+                        <li><a href="calcular_valor_total_estoque.html">Calcular valor total em estoque</a></li>
+                        <li><a href="ordenar_por_nome.html">Ordenar produtos por nome</a></li>
+                        <li><a href="ordenar_por_menor_valor.html">Ordenar produtos por menor valor</a></li>
+                        <li><a href="ordenar_por_maior_valor.html">Ordenar Produtos por maior Valor</a></li>
+                    </ul>
+                </section>
+
+                <!-- Informações Adicionais e Estatísticas -->
+                <section class="active">
+                    <h3>4. Informações adicionais e estatísticas</h3>
+                    <ul>
+                        <li><a href="registrar_info.html">Registrar informações adicionais sobre o produto</a></li>
+                        <li><a href="listar_informacoes_adicionais.html">Listar Informações adicionais sobre um
+                                produto</a></li>
+                        <li><a href="calcular_valor_total_produto.html">Calcular valor total de um produto</a></li>
+                        <li><a href="produtos_limite_inferior.html">Produtos com limite inferior ao informado</a></li>
+                    </ul>
+                </section>
+            </main>
+        </nav> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        <!-- Formulários -->
+
+    <main class="content">
+        <body>
+            <section id="funcao_1" class="ocultar_funcao">
+                <form action="">
+                    <article>
+                        <label for="">xyz</label>
+                        <input type="text">
+                    </article>
+        
+                    <article>
+                        <label for="">xyz</label>
+                        <input type="text">
+                    </article>
+                </form>
+            </section>
+        
+        
+            <section id="funcao_2" class="remover_produto ocultar_funcao">
+                <form action="">
+                    <article>
+                        <label for="">xy33z</label>
+                        <input type="text">
+                    </article>
+        
+                    <article>
+                        <label for="">xdy2z</label>
+                        <input type="text">
+                    </article>
+                </form>
+            </section>
+
+            <section id="funcao_3" class="adicionar_quantidade ocultar_funcao">
+                <form action="">
+                    <article>
+                        <label for="">xydsz</label>
+                        <input type="text">
+                    </article>
+        
+                    <article>
+                        <label for="">xydsz</label>
+                        <input type="text">
+                    </article>
+                </form>
+            </section>
+
+            
+    </main>
+        <footer class="footer">
+            <p>Stoque 2023 &copy; Todos os direitos reservados.</p>
+        </footer>
+    </div>
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // alterar_display();
+
+            function alterarDisplay(valorFuncao) {
+            let identificador = document.getElementById(`funcao_${valorFuncao}`);
+
+            console.log(valorFuncao)
+
+            if (identificador) {
+                // Verificar o valor atual do display
+                let displayAtual = window.getComputedStyle(identificador).getPropertyValue('display');
+
+                // Alternar entre 'flex' e 'none'
+                identificador.style.display = (displayAtual === 'none') ? 'flex' : 'none';
+            }
+        }
+        });
+                // document.getElementById(funcao).addEventListener('click', function () {
+                // // Verifica se a seção está oculta
+                // if (formularioSection.style.display === 'none' || formularioSection.style.display === '') {
+                //     // Mostra a seção
+                //     formularioSection.style.display = 'block';
+                // } else {
+                //     // Oculta a seção se já estiver visível
+                //     formularioSection.style.display = 'none';
+                // }
+            // });
+
+
+    </script>
+
+    <!-- <script src="script.js"></script> -->
+
+</body>
+
+</html>
